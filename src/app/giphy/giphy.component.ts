@@ -10,7 +10,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./giphy.component.css']
 })
 export class GiphyComponent implements OnInit {
-  link = 'https://api.giphy.com/v1/gifs/search?api_key=Nh8dONvqjH7KYCIDU3bXnAmbMY94NeuZ&q=';
+  link = 'https://api.giphy.com/v1/gifs/search?api_key=d4OHgDtQs5eAhJni66DKFY7JQDI8y72n';
 
   // create a variable that will store an array returned from data.data
  gifs= [];
