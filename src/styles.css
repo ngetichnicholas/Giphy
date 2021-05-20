@@ -8,15 +8,20 @@ body {
 }
 .search {
   display: flex;
+  border-radius: unset !important;
   flex-direction: row;
+  margin-bottom: 0.5rem;
 }
 .search-input {
   margin: 0 !important;
-  width: 90%;
+  border-radius: unset !important;
+  width: 95%;
   height: 5rem;
 }
 .search-button {
   margin: 0 !important;
-  width: 10%;
+  width: 5%;
+  background-color: #D651A3;
+  color: white;
   height: 5rem;
 }

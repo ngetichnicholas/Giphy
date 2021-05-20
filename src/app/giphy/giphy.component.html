@@ -1,8 +1,9 @@
 <div class="">
   <div class="search">
-    <input class="form-control search-input" width="80%" name="title" #searchTerm>
+    <input placeholder="@username + tag to search within a verified channel" class="form-control search-input" width="80%" name="title" #searchTerm>
     <button class="btn btn-outline-success m-3 search-button" (click)="performSearch(searchTerm)"><i class="fas fa-search"></i></button>
   </div>
+  <div id="banner"><img src="assets/images/giphy-banner.png" width="100%" alt=""></div>
   <br>
   <h5 class="">Trending Gifs</h5>
   <!-- <img *ngFor='let gif of gifs, let i=index' src="{{gifs[i].images.preview_gif.url}}" style="height:300px; width:300px;" alt=""> -->
