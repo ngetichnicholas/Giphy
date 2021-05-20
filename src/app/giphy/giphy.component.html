@@ -1,8 +1,14 @@
 
 <div class="">
-  <input  name="title" #searchTerm>
-  <button class="btn btn-outline-success m-3" (click)="performSearch(searchTerm)">Search Gifs</button>
+  <div class="row search">
+    <div class="col-md-10">
+      <input class="form-control inline" width="80%"  name="title" #searchTerm>
+    </div>
+    <div class="col-md-2">
+      <button class="btn btn-outline-success m-3 inline" (click)="performSearch(searchTerm)">Search Gifs</button>
+    </div>
+  </div>
   <br>
   <h5 class="">Trending Gifs</h5>
-  <img *ngFor='let gif of gifs, let i=index' src="{{gifs[i].images.preview_gif.url}}" style="height:300px; width:300px;" alt="">
+  <!-- <img *ngFor='let gif of gifs, let i=index' src="{{gifs[i].images.preview_gif.url}}" style="height:300px; width:300px;" alt=""> -->
 </div>
