@@ -1,0 +1,9 @@
+
+<div class="container-fluid">
+  <input  name="title" #searchTerm>
+  <button class="btn btn-outline-success m-3" (click)="performSearch(searchTerm)">Search Gifs</button>
+  <br>
+  <h5 class="">Trending Gifs</h5>
+  <!-- from the variable called gifs that stored our array, we want to go inside and show each object  -->
+  <!-- <img *ngFor='let gif of gifs, let i=index' src="{{gifs[i].images.preview_gif.url}}" style="height:300px; width:300px;" alt=""> -->
+</div>
