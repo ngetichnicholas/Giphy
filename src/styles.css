@@ -6,3 +6,17 @@ body {
 .navbar {
   background-color: black !important;
 }
+.search {
+  display: flex;
+  flex-direction: row;
+}
+.search-input {
+  margin: 0 !important;
+  width: 90%;
+  height: 5rem;
+}
+.search-button {
+  margin: 0 !important;
+  width: 10%;
+  height: 5rem;
+}
