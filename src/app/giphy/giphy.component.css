@@ -1,7 +1,27 @@
 .gif-image {
   margin: 1rem;
 }
+
 .giphy-images {
   width: 100%;
   margin: 0;
+}
+.load-more {
+  margin: 2rem 30% 2rem 30%;
+  width: 40%;
+}
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 200px;
+  grid-gap: 10px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.banner {
+  width:100% !important;
 }
